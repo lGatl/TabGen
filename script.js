@@ -12,22 +12,22 @@ var cree = function  ( ) {
 
 		G("#tableau").elthtml({
 			tag: "tr",
-			prop: "#c"+i
+			prop: "#l"+i
 		});
 
 
 		for(var j=0;j<nbcol;j++){
-			G("#c"+i).elthtml({
+			G("#l"+i).elthtml({
 				tag: "td",
-				prop: "#c"+i+"l"+j
+				prop: "#l"+i+"c"+j
 			});
-				G(("#c"+i+"l"+j)).elthtml({
+				G(("#l"+i+"c"+j)).elthtml({
 				tag: "input",
 
 				prop:{
-					id: "Cc"+i+"l"+j,
+					id: "Cl"+i+"c"+j,
 					type: "checkbox",
-					onclick: "console.log( "+ "Cc"+i+"l"+j+")"
+					onclick: "console.log( "+ "Cl"+i+"c"+j+")"
 					}
 			});
 
