@@ -27,7 +27,7 @@ var cree = function  ( ) {
 				prop:{
 					id: "Cl"+i+"c"+j,
 					type: "checkbox",
-					onclick: "console.log( "+ "Cl"+i+"c"+j+")"
+					onclick: "console.log(this.id)"
 					}
 			});
 
