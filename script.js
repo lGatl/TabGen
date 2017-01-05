@@ -1,7 +1,7 @@
 var cree = function  ( ) {
 	nbcol = G("#colonnes").value;
 	nblig = G("#lignes").value;
-
+	G("#reponse").vider();
 	/*td dans tr*/
 	G("#reponse").elthtml({
 		tag: "table",
@@ -30,8 +30,6 @@ var cree = function  ( ) {
 					onclick: "console.log(this.id)"
 					}
 			});
-
 		};
 	};
-
 };
